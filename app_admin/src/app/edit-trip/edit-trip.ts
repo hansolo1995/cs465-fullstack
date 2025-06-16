@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule, formatDate } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { TripData } from '../services/trip-data';
@@ -53,7 +53,7 @@ export class EditTrip implements OnInit {
     this.tripService.getTrip(tripCode)
       .subscribe({
         next: (value: any) => {
-          this.trip = value;
+          this.trip = value[0];
           // Populate our record into the form
           this.editForm.patchValue(value[0]);
           if (!value)
