@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema ({
     email: { type: String, unique: true, required: true },
     name: { type: String, required: true },
     hash: String,
-    salt: String
+    salt: String,
 });
 
 // Method to set the password on this record

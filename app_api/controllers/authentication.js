@@ -20,6 +20,7 @@ const register = async (req, res) => {
 
     user.setPassword(req.body.password);    // Set user password
     const q = await user.save();
+    console.log(user);
 
     if (!q) {
         // Database returned no data

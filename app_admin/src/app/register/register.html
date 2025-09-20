@@ -1,16 +1,16 @@
 <!-- Author:      Hansol Lee
-     Description: Login HTML controlling the Login form page functionality -->
+     Description: Registration HTML controlling the Registration form page functionality -->
 
 <div class="row">
     <div class="col-12 col-md-8">
-        <h2>Login</h2>
-        <form (ngSubmit)="onLoginSubmit()">
+        <h2>Registration</h2>
+        <form (ngSubmit)="onRegistrationSubmit()">
             <div role="alert" *ngIf="formError" class="alert alert-danger">
                 {{ formError }}
             </div>
             <div class="form-group">
-                <label style="padding-right: 70px" for="email">Name</label>
-                <input style="padding-right: 70px" type="name" name="name" placeholder="Enter Name" class= "form-control-sm" [(ngModel)]="credentials.name">
+                <label style="padding-right: 70px" for="name">Name</label>
+                <input style="padding-right: 70px" type="text" name="name" placeholder="Enter Name" class= "form-control-sm" [(ngModel)]="credentials.name">
             </div>
             <div class="form-group">
                 <label style="padding-right: 12px" for="email">Email Address</label>
@@ -21,7 +21,7 @@
                 <input style="padding-right: 72px" type="password" id="Password" name="password" placeholder="Enter Password" class= "form-control-sm" [(ngModel)]="credentials.password">
             </div>
             <button type="submit" role="button" class="btn btn-primary">
-                Sign In!
+                Register!
             </button>
         </form>
     </div>

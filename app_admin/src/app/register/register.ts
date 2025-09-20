@@ -1,6 +1,6 @@
 /**
  * Author:      Hansol Lee
- * Description: Login Service that handles operations associated with user login
+ * Description: Registration Service that handles operations associated with new user registration
  */
 
 import { Component, OnInit } from '@angular/core';
@@ -11,15 +11,14 @@ import { Authentication } from '../services/authentication';
 import { User } from '../models/user';
 
 @Component({
-  selector: 'app-login',
-  standalone: true,
+  selector: 'app-register',
   imports: [CommonModule, FormsModule],
-  templateUrl: './login.html',
-  styleUrl: './login.css'
+  templateUrl: './register.html',
+  styleUrl: './register.css'
 })
 
-export class Login implements OnInit {
-  public formError: string = '';
+export class Register {
+  public formError: string='';
   submitted = false;
 
   // Initialize credential variables with empty strings
@@ -28,41 +27,45 @@ export class Login implements OnInit {
     email: '',
     password: ''
   }
-
+  
   // Set up router and authentication service access
   constructor (
     private router: Router,
-    private authenticationService: Authentication
+    private authenticationService: Authentication 
   ) { }
 
   ngOnInit(): void {
 
   }
 
-  // Ensure all required fields are filled in the login form prior to logging in
-  // Continue with login if all requirements are met
-  public onLoginSubmit(): void {
+  // Ensure all required fields are filled in the registration form prior to registering
+  // Continue with registration if all requirements are met
+  public onRegistrationSubmit(): void {
     this.formError = '';
     if (!this.credentials.email || !this.credentials.password || !this.credentials.name) {
-      
-      // Return to login page if form errors are encountered
-      this.formError = 'All fields are required. Please try again.';
-      this.router.navigateByUrl('/login');
+
+      // Return to registration page if form errors are encountered
+      this.formError = "All fields are required, please try again!";
+      this.router.navigateByUrl("/register");
     }
     else {
-      this.doLogin();
+      this.doRegister();
     }
   }
 
+  // Register user with name, email, and password
   // Login using these credentials and route to the administrative home page if successful
-  private doLogin(): void {
+  private doRegister(): void {
     let newUser = {
       name: this.credentials.name,
       email: this.credentials.email
     } as User;
 
-    // console.log('LoginComponent::doLogin');
-    // console.log('this.credentials');
+    // console.log("RegisterComponent::doRegister");
+    // console.log(this.credentials);
+
+    this.authenticationService.register(newUser, this.credentials.password);
+
     this.authenticationService.login(newUser, this.credentials.password);
 
     if (this.authenticationService.isLoggedIn()) {

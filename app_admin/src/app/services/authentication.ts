@@ -1,3 +1,9 @@
+/**
+ * Author:      Hansol Lee
+ * Description: Authentication Service that handles operations associated with 
+ *              token movement and user authentication
+ */
+
 import { Inject, Injectable } from '@angular/core';
 import { BROWSER_STORAGE } from '../storage';
 import { User } from '../models/user';
@@ -9,7 +15,8 @@ import { TripData } from '../services/trip-data';
 })
 
 export class Authentication {
-  // Set up our storage and service access
+
+  // Set up storage and service access
   constructor(
     @Inject(BROWSER_STORAGE) 
     private storage: Storage,
@@ -19,26 +26,27 @@ export class Authentication {
   // Variable to handle Authentication Response
   authResp: AuthResponse = new AuthResponse();
 
-  // Get our token from our Storage provider
+  // Get token from our Storage provider
   // NOTE: Key for token: 'travlr-token'
   public getToken(): string {
     let out: any;
     out = this.storage.getItem('travlr-token');
 
-    // Make sure we return a string even if we do not have a token
+    // Make sure a string is returned even if there is no token
     if (!out) {
       return '';
     }
     return out;
   }
 
-  // Save our token to our Storage provider
+  // Save token to our Storage provider
   // Note: Key for token: 'travlr-token'
   public saveToken(token: string): void {
+    // console.log("JWT Before Saving: " + token);
     this.storage.setItem('travlr-token', token);
   }
 
-  // Log out of application and remove the JWT from Storage
+  // Log out of application and remove the token from Storage
   public logout(): void {
     this.storage.removeItem('travlr-token');
   }
@@ -60,7 +68,7 @@ export class Authentication {
   // Only call this method after checking if user is still logged in
   public getCurrentUser(): User {
     const token: string = this.getToken();
-    const { email, name } = JSON.parse(atob(token.split('.')[1]));
+    const { email, name } = JSON.parse(atob(token.split('.')[1]))
     return { email, name } as User;
   }
 
@@ -71,7 +79,7 @@ export class Authentication {
       .subscribe({
         next: (value: any) => {
           if (value) {
-            console.log(value);
+            // console.log(value);
             this.authResp = value;
             this.saveToken(this.authResp.token);
           }
@@ -89,9 +97,8 @@ export class Authentication {
       .subscribe({
         next: (value: any) => {
           if (value) {
-            console.log(value);
-            this.authResp = value;
-            this.saveToken(this.authResp.token);
+            // console.log(value);
+            this.saveToken(JSON.stringify(value));
           }
         },
         error: (error: any) => {
