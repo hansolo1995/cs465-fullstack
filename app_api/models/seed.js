@@ -1,17 +1,22 @@
-// Bring in the DB connection and the Trip schema
-const Mongoose = require('./db');
-const Trip = require('./travlr');
+/**
+ * Author:      Hansol Lee
+ * Description: Command Line script that will insert documents in bulk into a newly created database
+ */
 
-// Read seed data from json file
+// Bring in the DB connection and the desired schema
+const Mongoose = require('./db');
+const New = require('./news');
+
+// Read seed data from desired json file
 var fs = require('fs');
-var trips = JSON.parse(fs.readFileSync('./data/trips.json', 'utf8'));
+var news = JSON.parse(fs.readFileSync('./data/news.json', 'utf8'));
 
 // Delete any existing records, then insert seed data
 const seedDB = async () => {
     try {
-        await Trip.deleteMany({});
+        await New.deleteMany({});
         console.log('Deleted Existing Records.');
-        await Trip.insertMany(trips);
+        await New.insertMany(news);
         console.log('Data Inserted Successfully.');
     } catch (error) {
         console.error('Error: ', error);

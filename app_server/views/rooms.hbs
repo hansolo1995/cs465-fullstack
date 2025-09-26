@@ -1,3 +1,6 @@
+<!-- Author:      Hansol Lee
+     Description: Template for the Rooms webpage integrating header/footer partials and JSON properties -->
+
 <!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
 <html>
@@ -16,11 +19,13 @@
 						<div class="body">
 							<h1>Rooms</h1>
 							<ul id="rooms">
-			{{#each accommodations}}					
+			{{#each rooms}}					
 								<li>
 									<a href="/rooms"><img src="images/{{this.image}}" alt="Img"></a>
 									<h2><a href="/rooms">{{this.name}}</a></h2>
-									{{{this.description}}}
+									<ul {{{this.description}}} </ul>
+									&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+									&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 									<span class="rate">{{this.rate}}</span>
 								</li>
 			{{/each}}

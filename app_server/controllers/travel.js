@@ -1,3 +1,9 @@
+/**
+ * Author:      Hansol Lee
+ * Description: Travel Controller that handles rendering for the Travel webpage
+ */
+
+// Create variables for the trips API endpoint and list of options
 const tripsEndpoint = 'http://localhost:3000/api/trips';
 const options = {
     method: 'GET',
@@ -6,13 +12,13 @@ const options = {
     },
 };
 
-// var fs = require('fs');
-// var trips = JSON.parse(fs.readFileSync('./data/trips.json', 'utf8'));
-
-/* GET travel view */
+// Define travel object as an asynchronous function along with the 'await' keyword to synchronize communication with the endpoint
 const travel = async function(req, res, next) {
-    // console.log('TRAVEL CONTROLLER BEGIN');
+    
+    // Use the endpoint URL and the options defined previously to 'fetch' data
     await fetch(tripsEndpoint, options)
+
+        // Data fetched will be output as JSON and passed to the render method assuming an array of JSON objects exists and is not empty
         .then((res) => res.json())
         .then((json) => {
             let message = null;

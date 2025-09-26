@@ -1,10 +1,10 @@
 /**
  * Author:      Hansol Lee
- * Description: Rooms Controller that handles rendering for the Rooms webpage
+ * Description: News Controller that handles rendering for the News webpage
  */
 
-// Create variables for the rooms API endpoint and list of options
-const roomsEndpoint = 'http://localhost:3000/api/rooms';
+// Create variables for the news API endpoint and list of options
+const newsEndpoint = 'http://localhost:3000/api/news';
 const options = {
     method: 'GET',
     headers: {
@@ -12,12 +12,12 @@ const options = {
     },
 };
 
-// Define room object as an asynchronous function along with the 'await' keyword to synchronize communication with the endpoint
-const rooms = async function(req, res, next) {
-
+// Define news object as an asynchronous function along with the 'await' keyword to synchronize communication with the endpoint
+const news = async function(req, res, next) {
+    
     // Use the endpoint URL and the options defined previously to 'fetch' data
-    await fetch(roomsEndpoint, options)
-
+    await fetch(newsEndpoint, options)
+            
         // Data fetched will be output as JSON and passed to the render method assuming an array of JSON objects exists and is not empty
         .then((res) => res.json())
         .then((json) => {
@@ -28,14 +28,14 @@ const rooms = async function(req, res, next) {
             }
             else {
                 if (!json.length) {
-                    message = "No rooms exist in our database!";
+                    message = "No news in our database!";
                 }
             }
-            res.render('rooms', {title: 'Travlr Getaways', rooms: json, message});
+            res.render('news', {title: 'Travlr Getaways', news: json, message});
         })
         .catch((err) => res.status(500).send(err.message));
 };
 
 module.exports = {
-    rooms
+    news
 };

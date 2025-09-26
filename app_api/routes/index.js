@@ -1,23 +1,41 @@
-const express = require('express');  // Express app
-const router = express.Router();     // Router Logic
-const jwt = require('jsonwebtoken'); // Enable JSON Web Tokens
+/**
+ * Author:      Hansol Lee
+ * Description: General Router that holds all routers used in the Travlr application
+ */
 
-// This is where we import the controllers we will route
+const express = require('express');  
+const router = express.Router();     
+const jwt = require('jsonwebtoken');
+
+// Imported controllers that will be routed
 const tripsController = require('../controllers/trips');
+const roomsController = require('../controllers/rooms');
+const mealsController = require('../controllers/meals');
+const newsController = require('../controllers/news');
 const authController = require('../controllers/authentication');
 
-// Define route for authentication endpoint
+// Define route for authentication and login endpoints
 router.route('/register').post(authController.register);
-
-// Define route for login endpoint
 router.route('/login').post(authController.login);
 
 
-// Define route for our trips endpoint
+// Define routes for trips, rooms, meals, and news endpoints
 router
     .route('/trips')
-    .get(tripsController.tripsList) // GET Method routes tripList
-    .post(authenticateJWT, tripsController.tripsAddTrip) // POST Method adds a trip
+    .get(tripsController.tripsList) 
+    .post(authenticateJWT, tripsController.tripsAddTrip); 
+
+router
+    .route('/rooms')
+    .get(roomsController.roomsList);
+
+router
+    .route('/meals')
+    .get(mealsController.mealsList);
+
+router
+    .route('/news')
+    .get(newsController.newsList);
 
 // GET Method routes tripsFindByCode - requires parameter
 // PUT Method routes tripsUpdateTrip - requires parameter

@@ -1,8 +1,12 @@
+/**
+ * Author:      Hansol Lee
+ * Description: Home Router that handles routing to the Home webpage
+ */
+
 var express = require('express');
 var router = express.Router();
-const ctrlMain = require('../controllers/main');
+const controller = require('../controllers/main');
 
-/* GET home page. */
-router.get('/', ctrlMain.index);
+router.get('/', controller.index);
 
 module.exports = router;

@@ -1,10 +1,10 @@
 /**
  * Author:      Hansol Lee
- * Description: Rooms Controller that handles rendering for the Rooms webpage
+ * Description: Meals Controller that handles rendering for the Meals webpage
  */
 
-// Create variables for the rooms API endpoint and list of options
-const roomsEndpoint = 'http://localhost:3000/api/rooms';
+// Create variables for the meals API endpoint and list of options
+const mealsEndpoint = 'http://localhost:3000/api/meals';
 const options = {
     method: 'GET',
     headers: {
@@ -12,11 +12,11 @@ const options = {
     },
 };
 
-// Define room object as an asynchronous function along with the 'await' keyword to synchronize communication with the endpoint
-const rooms = async function(req, res, next) {
+// Define meals object as an asynchronous function along with the 'await' keyword to synchronize communication with the endpoint
+const meals = async function(req, res, next) {
 
     // Use the endpoint URL and the options defined previously to 'fetch' data
-    await fetch(roomsEndpoint, options)
+    await fetch(mealsEndpoint, options)
 
         // Data fetched will be output as JSON and passed to the render method assuming an array of JSON objects exists and is not empty
         .then((res) => res.json())
@@ -31,11 +31,11 @@ const rooms = async function(req, res, next) {
                     message = "No rooms exist in our database!";
                 }
             }
-            res.render('rooms', {title: 'Travlr Getaways', rooms: json, message});
+            res.render('meals', {title: 'Travlr Getaways', meals: json, message});
         })
         .catch((err) => res.status(500).send(err.message));
 };
 
 module.exports = {
-    rooms
+    meals
 };
