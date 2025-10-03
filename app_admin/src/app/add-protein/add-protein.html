@@ -1,0 +1,93 @@
+<!-- Author:      Hansol Lee
+     Description: Add-Protein HTML controlling the format of the Add Protein form -->
+
+<br> <br>
+<div class="col-md-4">
+    <h2 class="text-center">Add A New Protein</h2>
+    <br>
+
+    <form *ngIf="addForm" [formGroup]="addForm" (ngSubmit)="onSubmit()">
+
+        <div class="form-group">
+            <label style="padding-right: 85px">Gene:</label>
+            <input type="text" formControlName="Gene"
+                placeholder="Gene" class="form-control-sm"
+                [ngClass]="{ 'is-invalid': submitted && f['Gene'].errors}">
+            <div *ngIf="submitted && f['Gene'].errors">
+                <div *ngIf="f['Gene'].errors?.['required']">
+                    Gene label is required.
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label style="padding-right: 62px">Ensembl:</label>
+            <input type="text" formControlName="Ensembl"
+                placeholder="Ensembl" class="form-control-sm"
+                [ngClass]="{ 'is-invalid': submitted && f['Ensembl'].errors}">
+            <div *ngIf="submitted && f['Ensembl'].errors">
+                <div *ngIf="f['Ensembl'].errors?.['required']">
+                    Ensembl code is required.
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label style="padding-right: 26px">Chromosome:</label>
+            <input type="text" formControlName="Chromosome"
+                placeholder="Chromosome" class="form-control-sm"
+                [ngClass]="{ 'is-invalid': submitted && f['Chromosome'].errors}">
+            <div *ngIf="submitted && f['Chromosome'].errors">
+                <div *ngIf="f['Chromosome'].errors?.['required']">
+                    Chromosome location is required.
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label style="padding-right: 66px">Position:</label>
+            <input type="text" formControlName="Position"
+                placeholder="Position" class="form-control-sm"
+                [ngClass]="{ 'is-invalid': submitted && f['Position'].errors}">
+            <div *ngIf="submitted && f['Position'].errors">
+                <div *ngIf="f['Position'].errors?.['required']">
+                    Position on chromosome is required.
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label style="padding-right: 41px">Description:</label>
+            <input type="text" formControlName="Description"
+                placeholder="Description" class="form-control-sm"
+                [ngClass]="{ 'is-invalid': submitted && f['Description'].errors}">
+            <div *ngIf="submitted && f['Description'].errors">
+                <div *ngIf="f['Description'].errors?.['required']">
+                    Protein description is required.
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label style="padding-right: 78px">Image:</label>
+            <input type="text" formControlName="Image"
+                placeholder="Image" class="form-control-sm"
+                [ngClass]="{ 'is-invalid': submitted && f['Image'].errors }">
+            <div *ngIf="submitted && f['Image'].errors">
+                <div *ngIf="f['Image'].errors?.['required']">
+                    Image name is required.
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <button type="submit" class="btn btn-info">Save</button>
+
+    </form>
+    
+</div>

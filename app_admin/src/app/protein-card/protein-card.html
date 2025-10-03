@@ -1,0 +1,26 @@
+<!-- Author:      Hansol Lee
+     Description: Protein-Card HTML controlling the format of each protein's item card -->
+
+<div class="card">
+    <div class="card-header"><b>{{ protein.Gene }}</b></div>
+    <img src="assets/images/{{protein.Image}}"
+        alt="protein thumbnail" class="card-img-top">
+    <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted" [innerHTML]="protein.Description">
+        </h6>
+        <br>
+        <p class="card-text">
+            Ensembl Code: {{ protein.Ensembl }}
+        </p>
+        <br>
+        <p class="card-subtitle mt-3 mb-3 text-muted">
+            Located on Chromosome {{protein.Chromosome}} <br> <br> Contained within base pairs <br> {{protein.Position}} 
+        </p>
+        
+        <div *ngIf='isLoggedIn()'>
+            <button (click)="editProtein(protein)" class="btn btn-info">Edit Protein</button>
+            <button style="margin-left:20px" (click)="deleteProtein(protein)" class="btn btn-danger">Delete Protein</button>
+        </div>
+    </div>
+</div>
+<br>

@@ -14,7 +14,7 @@ var travelRouter = require('./app_server/routes/travel');
 var roomsRouter = require('./app_server/routes/rooms');
 var mealsRouter = require('./app_server/routes/meals');
 var newsRouter = require('./app_server/routes/news');
-var aboutRouter = require('./app_server/routes/about');
+var proteinsRouter = require('./app_server/routes/proteins');
 var contactRouter = require('./app_server/routes/contact');
 var apiRouter = require('./app_api/routes/index');
 
@@ -58,7 +58,7 @@ app.use('/travel', travelRouter);
 app.use('/rooms', roomsRouter);
 app.use('/meals', mealsRouter);
 app.use('/news', newsRouter);
-app.use('/about', aboutRouter);
+app.use('/proteins', proteinsRouter);
 app.use('/contact', contactRouter);
 app.use('/api', apiRouter);
 

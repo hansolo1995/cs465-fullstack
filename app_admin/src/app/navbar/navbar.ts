@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Authentication } from '../services/authentication';
+import { User } from '../models/user';
 import { RouterModule } from '@angular/router';
 
 @Component({

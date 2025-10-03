@@ -1,9 +1,11 @@
 <!-- Author:      Hansol Lee
      Description: Navbar HTML controlling the upper navigation bar functionality -->
 
-<!-- Displays Travlr Getaways Logo on lefthand side -->
+<!-- Displays Protein Database Logo on lefthand side -->
+<!-- Logo created using generic text operations from draw.io -->
 <nav class="navbar navbar-expand navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="/assets/images/logo.png">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <a class="navbar-brand" href="#"><img src="/assets/images/ProteinLogo.jpg">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -12,11 +14,11 @@
     <!-- Displays one of two headings to primarily denote login status -->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-link active" routerLink="" *ngIf="!isLoggedIn()"> <span>List of Trips</span>           
+            <a class="nav-link active" routerLink="" *ngIf="!isLoggedIn()"> <span>Welcome to the Protein Database!</span>           
             </a>
         </div>
         <div class="navbar-nav">
-            <a class="nav-link active" routerLink="" *ngIf="isLoggedIn()"> <span>Your List of Trips!</span>           
+            <a class="nav-link active" routerLink="" *ngIf="isLoggedIn()"> <span>Hello Administrator! <br> Feel free to add/edit/or delete items.</span>           
             </a>
         </div>
     </div>

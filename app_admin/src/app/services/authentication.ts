@@ -8,7 +8,7 @@ import { Inject, Injectable } from '@angular/core';
 import { BROWSER_STORAGE } from '../storage';
 import { User } from '../models/user';
 import { AuthResponse } from '../models/auth-response';
-import { TripData } from '../services/trip-data';
+import { ProteinData } from '../services/protein-data';
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +20,7 @@ export class Authentication {
   constructor(
     @Inject(BROWSER_STORAGE) 
     private storage: Storage,
-    private tripData: TripData
+    private proteinData: ProteinData
   ) { }
 
   // Variable to handle Authentication Response
@@ -75,7 +75,7 @@ export class Authentication {
   // Login method that leverages the login method in tripData within 'app_admin/src/app/services'
   // This method returns an observable with which we can subscribe to and only process when the Observable condition is satisfied
   public login(user: User, passwd: string): void {
-    this.tripData.login(user, passwd)
+    this.proteinData.login(user, passwd)
       .subscribe({
         next: (value: any) => {
           if (value) {
@@ -93,7 +93,7 @@ export class Authentication {
   // Register method that leverages the register method in tripData within 'app_admin/src/app/services'
   // This method returns an observable with which we can subscribe to and only process when the Observable condition is satisfied
   public register(user: User, passwd: string): void {
-    this.tripData.register(user, passwd)
+    this.proteinData.register(user, passwd)
       .subscribe({
         next: (value: any) => {
           if (value) {

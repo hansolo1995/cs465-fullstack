@@ -5,18 +5,18 @@
 
 // Bring in the DB connection and the desired schema
 const Mongoose = require('./db');
-const New = require('./news');
+const Protein = require('./proteins');
 
 // Read seed data from desired json file
 var fs = require('fs');
-var news = JSON.parse(fs.readFileSync('./data/news.json', 'utf8'));
+var proteins = JSON.parse(fs.readFileSync('./data/proteins.json', 'utf8'));
 
 // Delete any existing records, then insert seed data
 const seedDB = async () => {
     try {
-        await New.deleteMany({});
+        await Protein.deleteMany({});
         console.log('Deleted Existing Records.');
-        await New.insertMany(news);
+        await Protein.insertMany(proteins);
         console.log('Data Inserted Successfully.');
     } catch (error) {
         console.error('Error: ', error);

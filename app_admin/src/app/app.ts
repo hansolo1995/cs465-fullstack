@@ -12,5 +12,5 @@ import { Navbar } from './navbar/navbar';
 })
 
 export class App {
-  protected title = 'Travlr Getaways Admin!';
+  protected title = 'The Protein Database!';
 }

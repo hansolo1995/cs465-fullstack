@@ -1,0 +1,1447 @@
+[
+    {
+        "Gene": "A1BG",
+        "Image": "A1BG.jpg",
+        "Gene synonym": [],
+        "Ensembl": "ENSG00000121410",
+        "Description": "Alpha-1-B glycoprotein",
+        "Uniprot": [
+            "P04217"
+        ],
+        "Chromosome": "19",
+        "Position": "58345178-58353492",
+        "Protein class": [
+            "Plasma proteins",
+            "Predicted intracellular proteins",
+            "Predicted secreted proteins"
+        ],
+        "Biological process": null,
+        "Molecular function": null,
+        "Disease involvement": null,
+        "Evidence": "Evidence at protein level",
+        "HPA evidence": "Evidence at protein level",
+        "UniProt evidence": "Evidence at protein level",
+        "NeXtProt evidence": "Evidence at protein level",
+        "Antibody": [
+            "CAB016673",
+            "HPA044252"
+        ],
+        "Reliability (IH)": "Supported",
+        "Reliability (Mouse Brain)": null,
+        "Reliability (IF)": null,
+        "Subcellular location": null,
+        "Secretome location": "Secreted to blood",
+        "Secretome function": "No annotated function",
+        "CCD Protein": "NA",
+        "CCD Transcript": "NA",
+        "Blood concentration - Conc. blood IM [pg/L]": 200000000000,
+        "Blood concentration - Conc. blood MS [pg/L]": "72000000000",
+        "Blood expression cluster": null,
+        "Tissue expression cluster": "Cluster 31: Liver - Plasma proteins",
+        "Brain expression cluster": "Cluster 17: Choroid plexus - Cilium",
+        "Cell line expression cluster": "Cluster 18: Liver cancer - Metabolism",
+        "Single cell expression cluster": "Cluster 7: T-cells - T-cell receptor",
+        "Interactions": 4,
+        "Subcellular main location": null,
+        "Subcellular additional location": null,
+        "Antibody RRID": {
+            "CAB016673": "AB_1611892",
+            "HPA044252": "AB_2678876"
+        }
+    },
+
+    {
+        "Gene": "BBOX1",
+        "Image": "BBOX1.jpg",
+        "Gene synonym": [
+            "BBH",
+            "BBOX",
+            "G-BBH",
+            "gamma-BBH"
+        ],
+        "Ensembl": "ENSG00000129151",
+        "Description": "Gamma-butyrobetaine hydroxylase 1",
+        "Uniprot": [
+            "O75936"
+        ],
+        "Chromosome": "11",
+        "Position": "27040725-27127809",
+        "Protein class": [
+            "Enzymes",
+            "Metabolic proteins",
+            "Predicted intracellular proteins"
+        ],
+        "Biological process": [
+            "Carnitine biosynthesis"
+        ],
+        "Molecular function": [
+            "Dioxygenase",
+            "Oxidoreductase"
+        ],
+        "Disease involvement": null,
+        "Evidence": "Evidence at protein level",
+        "HPA evidence": "Evidence at protein level",
+        "UniProt evidence": "Evidence at protein level",
+        "NeXtProt evidence": "Evidence at protein level",
+        "Antibody": [
+            "HPA007600",
+            "HPA027823"
+        ],
+        "Reliability (IH)": "Enhanced",
+        "Reliability (Mouse Brain)": "Approved",
+        "Reliability (IF)": "Uncertain",
+        "Subcellular location": [
+            "Vesicles",
+            "Actin filaments"
+        ],
+        "Secretome location": null,
+        "Secretome function": null,
+        "CCD Protein": "NA",
+        "CCD Transcript": "NA",
+        "Blood concentration - Conc. blood IM [pg/L]": null,
+        "Blood concentration - Conc. blood MS [pg/L]": "12000",
+        "Blood expression cluster": null,
+        "Tissue expression cluster": "Cluster 52: Kidney - Transmembrane transport",
+        "Brain expression cluster": "Cluster 46: Brainstem - Mixed function",
+        "Cell line expression cluster": "Cluster 51: Myeloma - Immunoglobulins",
+        "Single cell expression cluster": "Cluster 56: Proximal tubular cells - Amino acid metabolism",
+        "Interactions": 11,
+        "Subcellular main location": [
+            "Vesicles"
+        ],
+        "Subcellular additional location": [
+            "Actin filaments"
+        ],
+        "Antibody RRID": {
+            "HPA007600": "AB_1845284",
+            "HPA027823": "AB_10602394"
+        }
+    },
+
+    {
+        "Gene": "CCNE1",
+        "Image": "CCNE1.jpg",
+        "Gene synonym": [
+            "CCNE"
+        ],
+        "Ensembl": "ENSG00000105173",
+        "Description": "Cyclin E1",
+        "Uniprot": [
+            "P24864"
+        ],
+        "Chromosome": "19",
+        "Position": "29811991-29824312",
+        "Protein class": [
+            "Cancer-related genes",
+            "Human disease related genes",
+            "Predicted intracellular proteins"
+        ],
+        "Biological process": [
+            "Cell cycle",
+            "Cell division"
+        ],
+        "Molecular function": [
+            "Cyclin"
+        ],
+        "Disease involvement": [
+            "Cancer-related genes"
+        ],
+        "Evidence": "Evidence at protein level",
+        "HPA evidence": "Evidence at protein level",
+        "UniProt evidence": "Evidence at protein level",
+        "NeXtProt evidence": "Evidence at protein level",
+        "Antibody": [
+            "CAB000308",
+            "CAB016682",
+            "HPA018169"
+        ],
+        "Reliability (IH)": "Approved",
+        "Reliability (Mouse Brain)": null,
+        "Reliability (IF)": "Supported",
+        "Subcellular location": [
+            "Nucleoplasm"
+        ],
+        "Secretome location": null,
+        "Secretome function": null,
+        "CCD Protein": "Yes",
+        "CCD Transcript": "Yes",
+        "Blood concentration - Conc. blood IM [pg/L]": null,
+        "Blood concentration - Conc. blood MS [pg/L]": null,
+        "Blood expression cluster": "Cluster 40: Monocytes - Innate immune response",
+        "Tissue expression cluster": "Cluster 77: Bone marrow - Cell proliferation",
+        "Brain expression cluster": "Cluster 1: Neurons - Mixed function",
+        "Cell line expression cluster": "Cluster 15: Kidney cancer - Membrane components",
+        "Single cell expression cluster": "Cluster 4: Extravillous trophoblasts - Unknown function",
+        "Interactions": 54,
+        "Subcellular main location": [
+            "Nucleoplasm"
+        ],
+        "Subcellular additional location": null,
+        "Antibody RRID": {
+            "CAB000308": null,
+            "CAB016682": "AB_1614564",
+            "HPA018169": "AB_1847384"
+        }
+    },
+
+    {
+  "Gene": "DDT",
+  "Image": "DDT.jpg",
+  "Gene synonym": [
+    "D-DT",
+    "DDCT",
+    "MIF-2",
+    "MIF2"
+  ],
+  "Ensembl": "ENSG00000099977",
+  "Description": "D-dopachrome tautomerase",
+  "Uniprot": [
+    "P30046"
+  ],
+  "Chromosome": "22",
+  "Position": "23970542-23980525",
+  "Protein class": [
+    "Enzymes",
+    "Plasma proteins",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": [
+    "Melanin biosynthesis"
+  ],
+  "Molecular function": [
+    "Lyase"
+  ],
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA049871",
+    "HPA074115"
+  ],
+  "Reliability (IH)": "Enhanced",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Approved",
+  "Subcellular location": [
+    "Mitochondria"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 29: Non-specific - Unknown function",
+  "Tissue expression cluster": "Cluster 83: Liver - Metabolism",
+  "Brain expression cluster": "Cluster 27: Non-specific - Mixed function",
+  "Cell line expression cluster": "Cluster 66: Non-specific - Mitochondria",
+  "Single cell expression cluster": "Cluster 43: Hepatocytes - Metabolism",
+  "Interactions": null,
+  "Subcellular main location": [
+    "Mitochondria"
+  ],
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "HPA049871": "AB_2680926",
+    "HPA074115": null
+  }
+},
+
+{
+  "Gene": "EEF1A1",
+  "Image": "EEF1A1.jpg",
+  "Gene synonym": [
+    "EE1A1",
+    "EEF1A",
+    "EF1A",
+    "EF1A1",
+    "EF1alpha1",
+    "LENG7"
+  ],
+  "Ensembl": "ENSG00000156508",
+  "Description": "Eukaryotic translation elongation factor 1 alpha 1",
+  "Uniprot": [
+    "P68104"
+  ],
+  "Chromosome": "6",
+  "Position": "73489308-73525587",
+  "Protein class": [
+    "Cancer-related genes",
+    "Metabolic proteins",
+    "Plasma proteins",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": [
+    "Host-virus interaction",
+    "Protein biosynthesis",
+    "Transcription",
+    "Transcription regulation"
+  ],
+  "Molecular function": [
+    "Elongation factor",
+    "Hydrolase"
+  ],
+  "Disease involvement": [
+    "Cancer-related genes"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA051759",
+    "HPA053862",
+    "HPA056990"
+  ],
+  "Reliability (IH)": "Supported",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Supported",
+  "Subcellular location": [
+    "Cytosol"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": "96000000",
+  "Blood expression cluster": "Cluster 33: Non-specific - ATP binding",
+  "Tissue expression cluster": "Cluster 18: Non-specific - Ribosome",
+  "Brain expression cluster": "Cluster 7: Non-specific - Ribosome",
+  "Cell line expression cluster": "Cluster 25: Non-specific - Ribosome",
+  "Single cell expression cluster": "Cluster 64: Non-specific - Ribosome",
+  "Interactions": 154,
+  "Subcellular main location": [
+    "Cytosol"
+  ],
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "HPA051759": "AB_2681595",
+    "HPA053862": "AB_2797248",
+    "HPA056990": "AB_2683302"
+  }
+},
+
+{
+  "Gene": "FFAR2",
+  "Image": "FFAR2.jpg",
+  "Gene synonym": [
+    "FFA2R",
+    "GPR43"
+  ],
+  "Ensembl": "ENSG00000126262",
+  "Description": "Free fatty acid receptor 2",
+  "Uniprot": [
+    "O15552"
+  ],
+  "Chromosome": "19",
+  "Position": "35443907-35451767",
+  "Protein class": [
+    "G-protein coupled receptors",
+    "Predicted membrane proteins"
+  ],
+  "Biological process": [
+    "Immunity",
+    "Inflammatory response"
+  ],
+  "Molecular function": [
+    "G-protein coupled receptor",
+    "Receptor",
+    "Transducer"
+  ],
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at transcript level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA023985"
+  ],
+  "Reliability (IH)": "Approved",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": null,
+  "Subcellular location": null,
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 21: Neutrophils - Unknown function",
+  "Tissue expression cluster": "Cluster 81: Lymphoid tissue & Bone marrow - Innate immune response",
+  "Brain expression cluster": "Cluster 11: White matter - Signal transduction",
+  "Cell line expression cluster": "Cluster 10: Ciliated cells - Ion channel activity",
+  "Single cell expression cluster": "Cluster 74: Neutrophils - Degranulation",
+  "Interactions": 93,
+  "Subcellular main location": null,
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "HPA023985": "AB_1849302"
+  }
+},
+
+{
+  "Gene": "GGTA1",
+  "Image": "GGTA1.jpg",
+  "Gene synonym": [
+    "GGTA",
+    "GGTA1P",
+    "GLYT2"
+  ],
+  "Ensembl": "ENSG00000204136",
+  "Description": "Glycoprotein alpha-galactosyltransferase 1 (inactive)",
+  "Uniprot": [
+    "Q4G0N0"
+  ],
+  "Chromosome": "9",
+  "Position": "121444991-121499844",
+  "Protein class": [
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": null,
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at transcript level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA023262"
+  ],
+  "Reliability (IH)": "Approved",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Approved",
+  "Subcellular location": [
+    "Plasma membrane",
+    "Cytosol"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 2: Dendritic cells - Unknown function",
+  "Tissue expression cluster": null,
+  "Brain expression cluster": "Cluster 51: Neurons - Mixed function",
+  "Cell line expression cluster": "Cluster 59: Leukemia - T-cell receptor",
+  "Single cell expression cluster": "Cluster 75: Serous glandular cells - Salivary secretion",
+  "Interactions": null,
+  "Subcellular main location": [
+    "Plasma membrane",
+    "Cytosol"
+  ],
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "HPA023262": "AB_1849651"
+  }
+},
+
+{
+  "Gene": "HRH4",
+  "Image": "HRH4.jpg",
+  "Gene synonym": [
+    "AXOR35",
+    "GPCR105",
+    "GPRv53",
+    "H4R",
+    "HH4R"
+  ],
+  "Ensembl": "ENSG00000134489",
+  "Description": "Histamine receptor H4",
+  "Uniprot": [
+    "Q9H3N8"
+  ],
+  "Chromosome": "18",
+  "Position": "24460637-24479961",
+  "Protein class": [
+    "FDA approved drug targets",
+    "G-protein coupled receptors",
+    "Predicted membrane proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": [
+    "G-protein coupled receptor",
+    "Receptor",
+    "Transducer"
+  ],
+  "Disease involvement": [
+    "FDA approved drug targets"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at transcript level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA035009"
+  ],
+  "Reliability (IH)": "Uncertain",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": null,
+  "Subcellular location": null,
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 46: Basophils - Proteolysis",
+  "Tissue expression cluster": null,
+  "Brain expression cluster": "Cluster 48: Non-specific - Mixed function",
+  "Cell line expression cluster": "Cluster 14: Myeloid leukemia - Innate immune response",
+  "Single cell expression cluster": "Cluster 30: Granulocytes - Unknown function",
+  "Interactions": null,
+  "Subcellular main location": null,
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "HPA035009": "AB_10671507"
+  }
+},
+
+{
+  "Gene": "CIITA",
+  "Image": "CIITA.jpg",
+  "Gene synonym": [
+    "C2TA",
+    "MHC2TA",
+    "NLRA"
+  ],
+  "Ensembl": "ENSG00000179583",
+  "Description": "Class II major histocompatibility complex transactivator",
+  "Uniprot": [
+    "P33076"
+  ],
+  "Chromosome": "16",
+  "Position": "10866222-10943021",
+  "Protein class": [
+    "Cancer-related genes",
+    "Disease related genes",
+    "Enzymes",
+    "Human disease related genes",
+    "Plasma proteins",
+    "Potential drug targets",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": [
+    "Transcription",
+    "Transcription regulation"
+  ],
+  "Molecular function": [
+    "Activator",
+    "Acyltransferase",
+    "Kinase",
+    "Transferase"
+  ],
+  "Disease involvement": [
+    "Cancer-related genes",
+    "Disease variant",
+    "SCID"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "CAB016084",
+    "HPA054757"
+  ],
+  "Reliability (IH)": "Enhanced",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Supported",
+  "Subcellular location": [
+    "Nucleoplasm"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 2: Dendritic cells - Unknown function",
+  "Tissue expression cluster": "Cluster 70: Lymphoid tissue - Immune response",
+  "Brain expression cluster": "Cluster 20: Macrophages & Microglia - Immune response",
+  "Cell line expression cluster": "Cluster 21: Lymphoma - Adaptive immune response",
+  "Single cell expression cluster": "Cluster 28: Dendritic cells - Antigen presentation",
+  "Interactions": 13,
+  "Subcellular main location": [
+    "Nucleoplasm"
+  ],
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "CAB016084": "AB_627261",
+    "HPA054757": null
+  }
+},
+
+{
+  "Gene": "KCNJ15",
+  "Image": "KCNJ15.jpg",
+  "Gene synonym": [
+    "IRKK",
+    "Kir1.3",
+    "Kir4.2"
+  ],
+  "Ensembl": "ENSG00000157551",
+  "Description": "Potassium inwardly rectifying channel subfamily J member 15",
+  "Uniprot": [
+    "Q99712"
+  ],
+  "Chromosome": "21",
+  "Position": "38155549-38307357",
+  "Protein class": [
+    "FDA approved drug targets",
+    "Predicted intracellular proteins",
+    "Predicted membrane proteins",
+    "Voltage-gated ion channels"
+  ],
+  "Biological process": [
+    "Ion transport",
+    "Potassium transport",
+    "Transport"
+  ],
+  "Molecular function": [
+    "Ion channel",
+    "Voltage-gated channel"
+  ],
+  "Disease involvement": [
+    "FDA approved drug targets"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at transcript level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA016702"
+  ],
+  "Reliability (IH)": "Approved",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Approved",
+  "Subcellular location": [
+    "Vesicles",
+    "Plasma membrane",
+    "Cytosol"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 4: Neutrophils - Degranulation",
+  "Tissue expression cluster": "Cluster 52: Kidney - Transmembrane transport",
+  "Brain expression cluster": "Cluster 12: Non-specific - Vasculature",
+  "Cell line expression cluster": "Cluster 53: Squamous epithelial cells - Keratinization",
+  "Single cell expression cluster": "Cluster 38: Proximal tubular cells - Transmembrane transport",
+  "Interactions": 3,
+  "Subcellular main location": [
+    "Plasma membrane"
+  ],
+  "Subcellular additional location": [
+    "Vesicles",
+    "Cytosol"
+  ],
+  "Antibody RRID": {
+    "HPA016702": "AB_1855560"
+  }
+},
+
+{
+  "Gene": "ELL",
+  "Image": "ELL.jpg",
+  "Gene synonym": [
+    "C19orf17",
+    "ELL1",
+    "Men",
+    "PPP1R68"
+  ],
+  "Ensembl": "ENSG00000105656",
+  "Description": "Elongation factor for RNA polymerase II",
+  "Uniprot": [
+    "P55199"
+  ],
+  "Chromosome": "19",
+  "Position": "18442663-18522116",
+  "Protein class": [
+    "Cancer-related genes",
+    "Disease related genes",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": [
+    "Transcription",
+    "Transcription regulation"
+  ],
+  "Molecular function": null,
+  "Disease involvement": [
+    "Cancer-related genes",
+    "Proto-oncogene"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA004202",
+    "HPA046076"
+  ],
+  "Reliability (IH)": "Uncertain",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Supported",
+  "Subcellular location": [
+    "Nucleoplasm",
+    "Nuclear bodies",
+    "Cytosol"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 38: Monocytes & Neutrophils - Degranulation",
+  "Tissue expression cluster": "Cluster 4: Testis - Basic cellular processes",
+  "Brain expression cluster": "Cluster 15: Non-specific - Transcription",
+  "Cell line expression cluster": "Cluster 23: Non-specific - Transcription",
+  "Single cell expression cluster": "Cluster 11: Late spermatids - Unknown function",
+  "Interactions": 30,
+  "Subcellular main location": [
+    "Nucleoplasm"
+  ],
+  "Subcellular additional location": [
+    "Nuclear bodies",
+    "Cytosol"
+  ],
+  "Antibody RRID": {
+    "HPA004202": null,
+    "HPA046076": "AB_2679526"
+  }
+},
+
+{
+  "Gene": "MMP25",
+  "Image": "MMP25.jpg",
+  "Gene synonym": [
+    "MMP20",
+    "MMPL1",
+    "MT6-MMP"
+  ],
+  "Ensembl": "ENSG00000008516",
+  "Description": "Matrix metallopeptidase 25",
+  "Uniprot": [
+    "Q9NPA2"
+  ],
+  "Chromosome": "16",
+  "Position": "3046062-3060726",
+  "Protein class": [
+    "Enzymes",
+    "Predicted secreted proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": [
+    "Hydrolase",
+    "Metalloprotease",
+    "Protease"
+  ],
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "CAB025177",
+    "HPA055640"
+  ],
+  "Reliability (IH)": "Uncertain",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Supported",
+  "Subcellular location": [
+    "Plasma membrane"
+  ],
+  "Secretome location": "Secreted to blood",
+  "Secretome function": "Enzyme",
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": "3200000",
+  "Blood expression cluster": "Cluster 35: Neutrophils - Protein binding",
+  "Tissue expression cluster": "Cluster 81: Lymphoid tissue & Bone marrow - Innate immune response",
+  "Brain expression cluster": "Cluster 47: Endothelial cells - Vasculature",
+  "Cell line expression cluster": "Cluster 49: HMC-1 - Innate immune response",
+  "Single cell expression cluster": "Cluster 74: Neutrophils - Degranulation",
+  "Interactions": null,
+  "Subcellular main location": [
+    "Plasma membrane"
+  ],
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "CAB025177": null,
+    "HPA055640": null
+  }
+},
+
+{
+  "Gene": "NNT",
+  "Image": "NNT.jpg",
+  "Gene synonym": [],
+  "Ensembl": "ENSG00000112992",
+  "Description": "Nicotinamide nucleotide transhydrogenase",
+  "Uniprot": [
+    "Q13423"
+  ],
+  "Chromosome": "5",
+  "Position": "43602692-43707405",
+  "Protein class": [
+    "Disease related genes",
+    "Enzymes",
+    "FDA approved drug targets",
+    "Human disease related genes",
+    "Metabolic proteins",
+    "Plasma proteins",
+    "Predicted intracellular proteins",
+    "Predicted membrane proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": [
+    "Translocase"
+  ],
+  "Disease involvement": [
+    "Disease variant",
+    "FDA approved drug targets"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA004829",
+    "CAB004975",
+    "HPA066564"
+  ],
+  "Reliability (IH)": "Enhanced",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Approved",
+  "Subcellular location": [
+    "Mitochondria"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": "110000",
+  "Blood expression cluster": "Cluster 33: Non-specific - ATP binding",
+  "Tissue expression cluster": "Cluster 35: Non-specific - Mitochondria",
+  "Brain expression cluster": "Cluster 23: Choroid plexus - Mixed function",
+  "Cell line expression cluster": "Cluster 7: Liver cancer - Metabolism",
+  "Single cell expression cluster": "Cluster 43: Hepatocytes - Metabolism",
+  "Interactions": 11,
+  "Subcellular main location": [
+    "Mitochondria"
+  ],
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "CAB004975": "AB_425908",
+    "HPA004829": "AB_1079495",
+    "HPA066564": null
+  }
+},
+
+{
+  "Gene": "OOSP2",
+  "Image": "OOSP2.jpg",
+  "Gene synonym": [
+    "FLJ36198",
+    "OOSP2A",
+    "PLAC1L",
+    "TMEM122"
+  ],
+  "Ensembl": "ENSG00000149507",
+  "Description": "Oocyte secreted protein 2",
+  "Uniprot": [
+    "Q86WS3"
+  ],
+  "Chromosome": "11",
+  "Position": "60040409-60048044",
+  "Protein class": [
+    "Predicted intracellular proteins",
+    "Predicted secreted proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": null,
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA050914"
+  ],
+  "Reliability (IH)": "Enhanced",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": null,
+  "Subcellular location": null,
+  "Secretome location": "Secreted in male reproductive system",
+  "Secretome function": "No annotated function",
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 46: Basophils - Proteolysis",
+  "Tissue expression cluster": "Cluster 20: Testis - Spermatogenesis",
+  "Brain expression cluster": null,
+  "Cell line expression cluster": "Cluster 65: Non-specific - Unknown function",
+  "Single cell expression cluster": "Cluster 44: Oocytes - Unknown function",
+  "Interactions": 2,
+  "Subcellular main location": null,
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "HPA050914": "AB_2681271"
+  }
+},
+
+{
+  "Gene": "PPP1CB",
+  "Image": "PPP1CB.jpg",
+  "Gene synonym": [
+    "MP",
+    "PP-1B",
+    "PP1B",
+    "PP1beta",
+    "PP1c",
+    "PPP1beta"
+  ],
+  "Ensembl": "ENSG00000213639",
+  "Description": "Protein phosphatase 1 catalytic subunit beta",
+  "Uniprot": [
+    "P62140"
+  ],
+  "Chromosome": "2",
+  "Position": "28751640-28802940",
+  "Protein class": [
+    "Disease related genes",
+    "Enzymes",
+    "Human disease related genes",
+    "Metabolic proteins",
+    "Plasma proteins",
+    "Potential drug targets",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": [
+    "Biological rhythms",
+    "Carbohydrate metabolism",
+    "Cell cycle",
+    "Cell division",
+    "Glycogen metabolism"
+  ],
+  "Molecular function": [
+    "Hydrolase",
+    "Protein phosphatase"
+  ],
+  "Disease involvement": [
+    "Disease variant"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA065425",
+    "CAB069426"
+  ],
+  "Reliability (IH)": "Supported",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Supported",
+  "Subcellular location": [
+    "Nucleoplasm",
+    "Cytosol"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": "2600000",
+  "Blood expression cluster": "Cluster 40: Monocytes - Innate immune response",
+  "Tissue expression cluster": "Cluster 19: Non-specific - Basic cellular processes",
+  "Brain expression cluster": "Cluster 21: Non-specific - Metabolism",
+  "Cell line expression cluster": "Cluster 72: Neuronal - Signal transduction",
+  "Single cell expression cluster": "Cluster 78: NK-cells & T-cells - Immune system & Transcription",
+  "Interactions": 132,
+  "Subcellular main location": [
+    "Nucleoplasm"
+  ],
+  "Subcellular additional location": [
+    "Cytosol"
+  ],
+  "Antibody RRID": {
+    "CAB069426": null,
+    "HPA065425": "AB_2685489"
+  }
+},
+
+{
+  "Gene": "RRP7A",
+  "Image": "RRP7A.jpg",
+  "Gene synonym": [
+    "CGI-96",
+    "Rrp7"
+  ],
+  "Ensembl": "ENSG00000189306",
+  "Description": "Ribosomal RNA processing 7 homolog A",
+  "Uniprot": [
+    "Q9Y3A4"
+  ],
+  "Chromosome": "22",
+  "Position": "42508344-42519796",
+  "Protein class": [
+    "Disease related genes",
+    "Human disease related genes",
+    "Plasma proteins",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": [
+    "RNA-binding"
+  ],
+  "Disease involvement": [
+    "Disease variant",
+    "Intellectual disability",
+    "Primary microcephaly"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "RNA tissue specificity": "Low tissue specificity",
+  "Antibody": [
+    "HPA001586",
+    "HPA046768"
+  ],
+  "Reliability (IH)": "Approved",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Supported",
+  "Subcellular location": [
+    "Nucleoplasm",
+    "Nucleoli",
+    "Cell Junctions"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 12: Non-specific - Mitochondrial translation",
+  "Tissue expression cluster": "Cluster 43: Non-specific - Mitochondrial translation",
+  "Brain expression cluster": "Cluster 33: Neurons - Mixed function",
+  "Cell line expression cluster": "Cluster 66: Non-specific - Mitochondria",
+  "Single cell expression cluster": "Cluster 39: Non-specific - Basic cellular processes",
+  "Interactions": 10,
+  "Subcellular main location": [
+    "Nucleoli"
+  ],
+  "Subcellular additional location": [
+    "Nucleoplasm",
+    "Cell Junctions"
+  ],
+  "Antibody RRID": {
+    "HPA001586": "AB_1078506",
+    "HPA046768": "AB_2679796"
+  }
+},
+
+{
+  "Gene": "SSH1",
+  "Image": "SSH1.jpg",
+  "Gene synonym": [
+    "KIAA1298",
+    "SSH1L"
+  ],
+  "Ensembl": "ENSG00000084112",
+  "Description": "Slingshot protein phosphatase 1",
+  "Uniprot": [
+    "Q8WYL5"
+  ],
+  "Chromosome": "12",
+  "Position": "108778191-108857590",
+  "Protein class": [
+    "Enzymes",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": [
+    "Actin-binding",
+    "Hydrolase",
+    "Protein phosphatase"
+  ],
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA019845"
+  ],
+  "Reliability (IH)": "Uncertain",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Uncertain",
+  "Subcellular location": [
+    "Nucleoplasm",
+    "Plasma membrane",
+    "Cytosol"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 45: Eosinophils - Unknown function",
+  "Tissue expression cluster": "Cluster 79: Non-specific - Transcription",
+  "Brain expression cluster": "Cluster 10: Cerebellum - Nucleic acid binding",
+  "Cell line expression cluster": "Cluster 69: Skin cancer - ECM organization",
+  "Single cell expression cluster": "Cluster 41: Adipocytes & Endothelial cells - Mixed function",
+  "Interactions": 22,
+  "Subcellular main location": [
+    "Plasma membrane"
+  ],
+  "Subcellular additional location": [
+    "Nucleoplasm",
+    "Cytosol"
+  ],
+  "Antibody RRID": {
+    "HPA019845": "AB_1857497"
+  }
+},
+
+{
+  "Gene": "TTC7B",
+  "Image": "TTC7B.jpg",
+  "Gene synonym": [
+    "TTC7L1"
+  ],
+  "Ensembl": "ENSG00000165914",
+  "Description": "Tetratricopeptide repeat domain 7B",
+  "Uniprot": [
+    "Q86TV6"
+  ],
+  "Chromosome": "14",
+  "Position": "90524564-90816479",
+  "Protein class": [
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": null,
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA058363",
+    "HPA059577"
+  ],
+  "Reliability (IH)": "Enhanced",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Supported",
+  "Subcellular location": [
+    "Plasma membrane"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 22: Eosinophils - Transcription",
+  "Tissue expression cluster": "Cluster 22: Brain - Synaptic signal transduction",
+  "Brain expression cluster": "Cluster 32: Cerebral cortex - Mixed function",
+  "Cell line expression cluster": "Cluster 47: Leukemia - Hemostasis",
+  "Single cell expression cluster": "Cluster 8: Neurons - Neuronal signaling",
+  "Interactions": 10,
+  "Subcellular main location": [
+    "Plasma membrane"
+  ],
+  "Subcellular additional location": null,
+  "Antibody RRID": {
+    "HPA058363": "AB_2683692",
+    "HPA059577": "AB_2684069"
+  }
+},
+
+{
+  "Gene": "MAGI1",
+  "Image": "MAGI1.jpg",
+  "Gene synonym": [
+    "AIP3",
+    "BAIAP1",
+    "BAP1",
+    "MAGI-1",
+    "TNRC19",
+    "WWP3"
+  ],
+  "Ensembl": "ENSG00000151276",
+  "Description": "Membrane associated guanylate kinase, WW and PDZ domain containing 1",
+  "Uniprot": [
+    "Q96QZ7"
+  ],
+  "Chromosome": "3",
+  "Position": "65353525-66038918",
+  "Protein class": [
+    "Cancer-related genes",
+    "Plasma proteins",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": null,
+  "Disease involvement": [
+    "Cancer-related genes"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "RNA tissue specificity": "Low tissue specificity",
+  "Antibody": [
+    "HPA031851",
+    "HPA031853",
+    "HPA077002"
+  ],
+  "Reliability (IH)": "Supported",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Supported",
+  "Subcellular location": [
+    "Nucleoplasm",
+    "Cell Junctions"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": null,
+  "Tissue expression cluster": "Cluster 32: Endocrine & Neural - Unknown function",
+  "Brain expression cluster": "Cluster 10: Cerebellum - Nucleic acid binding",
+  "Cell line expression cluster": "Cluster 47: Leukemia - Hemostasis",
+  "Single cell expression cluster": "Cluster 8: Neurons - Neuronal signaling",
+  "Interactions": 29,
+  "Subcellular main location": [
+    "Cell Junctions"
+  ],
+  "Subcellular additional location": [
+    "Nucleoplasm"
+  ],
+  "Antibody RRID": {
+    "HPA031851": "AB_10599289",
+    "HPA031853": "AB_10602095",
+    "HPA077002": null
+  }
+},
+
+{
+  "Gene": "XXYLT1",
+  "Image": "XXYLT1.jpg",
+  "Gene synonym": [
+    "C3orf21",
+    "FLJ35155"
+  ],
+  "Ensembl": "ENSG00000173950",
+  "Description": "Xyloside xylosyltransferase 1",
+  "Uniprot": [
+    "Q8NBI6"
+  ],
+  "Chromosome": "3",
+  "Position": "195068284-195271159",
+  "Protein class": [
+    "Enzymes",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": null,
+  "Molecular function": [
+    "Glycosyltransferase",
+    "Transferase"
+  ],
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at transcript level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": null,
+  "Reliability (IH)": null,
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": null,
+  "Subcellular location": null,
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": "58000",
+  "Blood expression cluster": "Cluster 29: Non-specific - Unknown function",
+  "Tissue expression cluster": "Cluster 75: Epithelium - Extracellular exosomes",
+  "Brain expression cluster": "Cluster 24: Neurons - Mixed function",
+  "Cell line expression cluster": "Cluster 63: Non-specific - Protein processing",
+  "Single cell expression cluster": "Cluster 54: Lymphatic endothelial cells - Lymph vessel development",
+  "Interactions": 7,
+  "Subcellular main location": null,
+  "Subcellular additional location": null,
+  "Antibody RRID": null
+},
+
+{
+  "Gene": "GAPDH",
+  "Image": "GAPDH.jpg",
+  "Gene synonym": [
+    "GAPD"
+  ],
+  "Ensembl": "ENSG00000111640",
+  "Description": "Glyceraldehyde-3-phosphate dehydrogenase",
+  "Uniprot": [
+    "P04406"
+  ],
+  "Chromosome": "12",
+  "Position": "6534512-6538374",
+  "Protein class": [
+    "Enzymes",
+    "FDA approved drug targets",
+    "Metabolic proteins",
+    "Plasma proteins",
+    "Predicted intracellular proteins"
+  ],
+  "Biological process": [
+    "Apoptosis",
+    "Glycolysis",
+    "Immunity",
+    "Innate immunity",
+    "Translation regulation"
+  ],
+  "Molecular function": [
+    "Oxidoreductase",
+    "Transferase"
+  ],
+  "Disease involvement": [
+    "FDA approved drug targets"
+  ],
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at protein level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "CAB005197",
+    "CAB016392",
+    "HPA040067",
+    "HPA061280",
+    "CAB079968"
+  ],
+  "Reliability (IH)": "Supported",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Enhanced",
+  "Subcellular location": [
+    "Nuclear membrane",
+    "Vesicles",
+    "Plasma membrane",
+    "Cytosol"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "No",
+  "CCD Transcript": "No",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": "1100000000",
+  "Blood expression cluster": "Cluster 26: Monocytes - Plasma membrane proteins",
+  "Tissue expression cluster": "Cluster 14: Skeletal muscle - Muscle contraction",
+  "Brain expression cluster": "Cluster 27: Non-specific - Mixed function",
+  "Cell line expression cluster": "Cluster 38: Non-specific - Transcription",
+  "Single cell expression cluster": "Cluster 45: Non-specific - Mixed function",
+  "Interactions": 134,
+  "Subcellular main location": [
+    "Plasma membrane",
+    "Cytosol"
+  ],
+  "Subcellular additional location": [
+    "Nuclear membrane",
+    "Vesicles"
+  ],
+  "Antibody RRID": {
+    "CAB005197": "AB_641107",
+    "CAB016392": "AB_627678",
+    "CAB079968": null,
+    "HPA040067": "AB_10965903",
+    "HPA061280": "AB_2684463"
+  }
+},
+
+{
+  "Gene": "ZNF33A",
+  "Image": "ZNF33A.jpg",
+  "Gene synonym": [
+    "FLJ23404",
+    "KIAA0065",
+    "KOX31",
+    "KOX5",
+    "ZNF11A",
+    "ZNF33",
+    "ZZAPK"
+  ],
+  "Ensembl": "ENSG00000189180",
+  "Description": "Zinc finger protein 33A",
+  "Uniprot": [
+    "Q06730"
+  ],
+  "Chromosome": "10",
+  "Position": "38010650-38065088",
+  "Protein class": [
+    "Plasma proteins",
+    "Predicted intracellular proteins",
+    "Transcription factors"
+  ],
+  "Biological process": [
+    "Transcription",
+    "Transcription regulation"
+  ],
+  "Molecular function": [
+    "DNA-binding"
+  ],
+  "Disease involvement": null,
+  "Evidence": "Evidence at protein level",
+  "HPA evidence": "Evidence at transcript level",
+  "UniProt evidence": "Evidence at protein level",
+  "NeXtProt evidence": "Evidence at protein level",
+  "Antibody": [
+    "HPA005538",
+    "HPA056638"
+  ],
+  "Reliability (IH)": "Approved",
+  "Reliability (Mouse Brain)": null,
+  "Reliability (IF)": "Approved",
+  "Subcellular location": [
+    "Nucleoli fibrillar center",
+    "Endoplasmic reticulum",
+    "Vesicles"
+  ],
+  "Secretome location": null,
+  "Secretome function": null,
+  "CCD Protein": "NA",
+  "CCD Transcript": "NA",
+  "Blood concentration - Conc. blood IM [pg/L]": null,
+  "Blood concentration - Conc. blood MS [pg/L]": null,
+  "Blood expression cluster": "Cluster 21: Neutrophils - Unknown function",
+  "Tissue expression cluster": "Cluster 16: Non-specific - Transcription",
+  "Brain expression cluster": "Cluster 50: Non-specific - Nucleic acid binding",
+  "Cell line expression cluster": "Cluster 52: Non-specific - Mitochondria",
+  "Single cell expression cluster": "Cluster 55: Non-specific - Transcription",
+  "Interactions": 2,
+  "Subcellular main location": [
+    "Nucleoli fibrillar center",
+    "Endoplasmic reticulum"
+  ],
+  "Subcellular additional location": [
+    "Vesicles"
+  ],
+  "Antibody RRID": {
+    "HPA005538": null,
+    "HPA056638": "AB_2683199"
+  }
+}
+
+]

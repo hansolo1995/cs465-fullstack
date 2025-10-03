@@ -12,7 +12,9 @@ const tripsController = require('../controllers/trips');
 const roomsController = require('../controllers/rooms');
 const mealsController = require('../controllers/meals');
 const newsController = require('../controllers/news');
+const proteinsController = require('../controllers/proteins');
 const authController = require('../controllers/authentication');
+const { proteins } = require('../../app_server/controllers/proteins');
 
 // Define route for authentication and login endpoints
 router.route('/register').post(authController.register);
@@ -37,6 +39,11 @@ router
     .route('/news')
     .get(newsController.newsList);
 
+router
+    .route('/proteins')
+    .get(proteinsController.proteinsList)
+    .post(authenticateJWT, proteinsController.proteinsAddProtein);
+
 // GET Method routes tripsFindByCode - requires parameter
 // PUT Method routes tripsUpdateTrip - requires parameter
 // DELETE Method routes tripsDeleteTrip - requires parameter
@@ -45,6 +52,12 @@ router
     .get(tripsController.tripsFindByCode)
     .put(authenticateJWT, tripsController.tripsUpdateTrip)
     .delete(tripsController.tripsDeleteTrip);
+
+router
+    .route('/proteins/:Gene')
+    .get(proteinsController.proteinsFindByGene)
+    .put(authenticateJWT, proteinsController.proteinsUpdateProtein)
+    .delete(proteinsController.proteinsDeleteProtein);
 
 function authenticateJWT(req, res, next) {
     console.log("In Middleware");

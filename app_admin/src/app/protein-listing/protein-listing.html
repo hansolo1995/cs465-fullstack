@@ -1,0 +1,13 @@
+<!-- Author:      Hansol Lee
+     Description: Protein-Listing HTML controlling the format of the general list of proteins -->
+
+<br>
+<div *ngIf='isLoggedIn()'>
+    <button (click)="addProtein()" class="btn btn-info">Add A New Protein</button>
+</div>
+<br>
+<div class="row">
+    <div *ngFor="let protein of proteins" class="col-md-4">
+        <app-protein-card [protein]="protein" class="card-deck mt-2"></app-protein-card>
+    </div>
+</div>

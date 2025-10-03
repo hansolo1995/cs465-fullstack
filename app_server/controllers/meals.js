@@ -28,7 +28,7 @@ const meals = async function(req, res, next) {
             }
             else {
                 if (!json.length) {
-                    message = "No rooms exist in our database!";
+                    message = "No meals exist in our database!";
                 }
             }
             res.render('meals', {title: 'Travlr Getaways', meals: json, message});
